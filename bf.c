@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 // initialize tape and pointer
-unsigned char tape[500000] = {0};
+unsigned char tape[1000000] = {0};
 unsigned char* ptr = tape;
 
 
@@ -20,7 +20,6 @@ void interpret(char* input) {
         // increment pointer position
           case '>': ++ptr;
             break;
-
 
         // decrement pointer position
           case '<': --ptr;
@@ -63,14 +62,15 @@ void interpret(char* input) {
 }
 
 int main() {
-  // open for input
+
+    // open for input
     char str[1000];
     printf("Input Code: ");
     scanf("%s", str);
 
     // run interpreter
     interpret(str);
+    
     printf("%s","\n");
-
     return 0;
 }
