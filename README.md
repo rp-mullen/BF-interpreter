@@ -6,7 +6,7 @@ A tiny interpreter written in C for the esoteric programming language
 
 To run the interpreter, move to the directory containing bf.c and compile/execute:
 ```
-gcc bf.c 
-./a.out
+gcc -o bf bf.c 
+./bf
 ```
 The program will prompt the user for input code. Write out the code in bf and press ``Enter`` to allow the interpreter to run and produce a readable output in the terminal.
