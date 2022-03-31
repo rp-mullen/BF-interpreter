@@ -6,7 +6,7 @@
 unsigned char tape[1000000] = {0};
 unsigned char* ptr = tape;
 
-
+// interpreter
 void interpret(char* input) {
     char current;
     int loop;
@@ -61,6 +61,7 @@ void interpret(char* input) {
     }
 }
 
+// driver code
 int main() {
 
     // open for input
