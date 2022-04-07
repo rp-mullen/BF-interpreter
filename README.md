@@ -10,3 +10,13 @@ gcc -o bf bf.c
 ./bf
 ```
 The program will prompt the user for input code. Write out the code in bf and allow the interpreter to run and produce a readable output in the terminal.
+
+## Example I/O
+
+Input:
+```
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]
+>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
+```
+
+Output: Hello World!
