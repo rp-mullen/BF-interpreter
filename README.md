@@ -23,6 +23,3 @@ Output:
 ```
 Hello World!
 ```
-## Notes
-- Changed conditionals to switch statements to optimize performance (faster brainf-ck)
-- Increased tape memory
